@@ -1,0 +1,45 @@
+{
+  "rules": {
+    "diceCount": 6,
+    "combinations": [
+      {
+        "name": "Par",
+        "description": "2 dados iguales",
+        "points": 1,
+        "count": 2
+      },
+      {
+        "name": "Tercia",
+        "description": "3 dados iguales",
+        "points": 2,
+        "count": 3
+      },
+      {
+        "name": "Full",
+        "description": "4 dados iguales",
+        "points": 3,
+        "count": 4
+      },
+      {
+        "name": "Poker",
+        "description": "5 dados iguales",
+        "points": 4,
+        "count": 5
+      },
+      {
+        "name": "Sextilla",
+        "description": "6 dados iguales",
+        "points": 6,
+        "count": 6
+      },
+      {
+        "name": "Escalera",
+        "description": "Los 6 lados diferentes",
+        "points": 7,
+        "special": true
+      }
+    ],
+    "notes": "Si salen 2 jugadas en un mismo tiro también se acumulan los puntos.",
+    "maxTurns": 10
+  }
+}
